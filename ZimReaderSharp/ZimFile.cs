@@ -112,7 +112,7 @@ namespace ZimReaderSharp {
 
         private ulong ReadClusterPointer(int index) {
             if (index == _header.ClusterCount)
-                return (ulong)_br.BaseStream.Length - _header.ChecksumPos; // remove 16 for the checksum
+                return _header.ChecksumPos;
 
             _br.BaseStream.Seek((long)_header.ClusterPtrPos + 8 * index, SeekOrigin.Begin);
             return _br.ReadUInt64();
