@@ -12,4 +12,20 @@
     <PackageReference Include="ZstdNet" Version="1.4.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Authors>Shaltiel Shmidman</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/shaltielshmid/ZimReaderSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shaltielshmid/ZimReaderSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
 </Project>

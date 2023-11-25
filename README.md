@@ -1,5 +1,7 @@
 # ZimReaderSharp - A Robust Library for reading ZIM files
 
+[![NuGet](https://img.shields.io/nuget/v/ZimReaderSharp.svg)](https://www.nuget.org/packages/ZimReaderSharp/)
+
 `ZimReaderSharp` provides a streamlined interface to efficiently read and handle ZIM files. With support for multiple compression types—including BZip2, LZMA, and ZStd—this library prioritizes performance, loading only necessary data on-the-fly for rapid startup.
 
 ## Installation
