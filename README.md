@@ -1,4 +1,4 @@
-# ZimReaderSharp - A Robust Library for reading ZIM files
+# ZimReaderSharp - A .NET library designed for streamlined reading and handling of ZIM files.
 
 [![NuGet](https://img.shields.io/nuget/v/ZimReaderSharp.svg)](https://www.nuget.org/packages/ZimReaderSharp/)
 
